@@ -26,7 +26,7 @@ export default function Card({ name, img, description, className }: CardType) {
           <p className="text-soft-pink">Verified Buyer</p>
         </div>
       </div>
-      <p className=" text-white">"{description}"</p>
+      <p className=" text-white">{description}</p>
     </div>
   );
 }
